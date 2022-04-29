@@ -1,0 +1,146 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    --fonte-principal: "Inter";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.principal {
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container-caixa {
+    margin: 0 6em;
+}
+
+.container-titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container-imagem {
+    margin: 1em 0 2em;
+}
+
+.container-botao {
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao-secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container-aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container-secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.container-descricao {
+    padding: 2em;
+}
+
+.imagem-secundaria {
+    width: 80%;
+}
+
+.descricao-titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao-texto {
+    color: var(--cinza-secundario);
+}
+
+.terceiro-botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos-titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+
+.dispositivos-lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista-item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape-lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista-link a {
+    color: var(--branco-principal);
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+.lista-link a:hover {
+    color: var(--botao-azul);
+}
+
+.rodape-texto {
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    margin: 1em 0;
+}
